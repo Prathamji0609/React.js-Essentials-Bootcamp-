@@ -1,0 +1,52 @@
+Install Node.js and npm:
+Make sure you have Node.js and npm (Node Package Manager) installed on your computer. You can download and install them from the official website: https://nodejs.org/
+
+Install Vite:
+Open your terminal or command prompt and run the following command to install Vite globally on your system:
+
+lua
+Copy code
+npm install -g create-vite
+Create a New Vite Project:
+Once Vite is installed, you can create a new project. In your terminal, navigate to the directory where you want to create the project and run the following command:
+
+lua
+Copy code
+create-vite my-react-app --template react
+This command creates a new Vite project named my-react-app using the React template.
+
+Navigate to the Project Directory:
+Change your working directory to the newly created project:
+
+bash
+Copy code
+cd my-react-app
+Start the Development Server:
+To start the development server, run the following command:
+
+arduino
+Copy code
+npm install
+npm run dev
+This will build and serve your React application. You'll see an output in the terminal with a local development server address (usually http://localhost:3000).
+
+Edit the React Component:
+Open the src/App.jsx file in your code editor. Replace the existing code with a basic "Hello World" React component:
+
+jsx
+Copy code
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
+}
+
+export default App;
+View Your App:
+After saving your changes, go to your web browser and open the development server address (http://localhost:3000 or the address shown in your terminal). You should see your "Hello World" message displayed in your React app.
+
+That's it! You've successfully created a "Hello World" React app using Vite and React.js. You can now start building your React application by adding more components and functionality.
